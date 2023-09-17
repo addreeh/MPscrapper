@@ -28,13 +28,13 @@ python3 mpNoDB.py
 ```
 
 ## Customize It
-In the script, only two products are considered, which are the ones added to the cart, the [EVOWHEY PROTEIN 2.0 2KG](https://www.hsnstore.com/marcas/sport-series/evowhey-protein-2-0) and the [EVOCASEIN 2.0 (MICELLAR CASEIN + DIGEZYME) 2KG](https://www.hsnstore.com/marcas/sport-series/evocasein-2-0-caseina-micelar-digezyme). If you want the script to include more products, you will need to add them to your shopping cart and insert a new product into the script.
+In the script, only one product is considered, which are the one added to the cart, the [IMPACT WHEY PROTEIN 2,5KG](https://www.myprotein.es/nutricion-deportiva/impact-whey-protein/10530943.html?variation=10530986). If you want the script to include more products, you will need to add them to your shopping cart and insert a new product into the script.
 
 As you can see, each product must have specific information.
-![image](https://github.com/addreeh/HSNscrapper/assets/74270582/a29e9c35-7ab9-45d4-8dd3-8d2b85139c90)
+![image](https://github.com/addreeh/MPscrapper/assets/74270582/cb5a654e-a761-4297-9b0c-21e39adcb11e)
 
 To obtain this data, you will need to access the browser's developer tool (F12).
-![image](https://github.com/addreeh/HSNscrapper/assets/74270582/e6bb66ce-49e6-48c6-acb1-3d293780eead)
+![image](https://github.com/addreeh/MPscrapper/assets/74270582/6f475403-4129-4872-b74f-bf0adb75ef29)
 
 Once you have obtained the data, you simply need to insert a new product into the script.
 
