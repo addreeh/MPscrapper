@@ -6,7 +6,7 @@ A python web scraping script crafted to automate data extraction from the [MYPRO
 
 
 ## Installation
-
+To use the script you need to have installed Firefox and Python.
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install requirements.
 
 ```bash
