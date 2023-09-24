@@ -84,6 +84,7 @@ def get_data():
         options = Options()
         options.add_argument("--headless")
         driver = webdriver.Firefox(options=options)
+        driver.maximize_window()
 
         login(driver)
 
@@ -92,8 +93,8 @@ def get_data():
         products = []
 
         product1 = {
-            "name": driver.find_element(By.CSS_SELECTOR, 'p.athenaBasket_itemName').text.upper().split(" - ")[0] + " 2,5KG",
-            "price": driver.find_element(By.CSS_SELECTOR, 'div.athenaBasket_bodyItem.athenaBasket_bodyItem-subTotal').text.replace(" ", ""),
+            "name": driver.find_element(By.CSS_SELECTOR, "p.athenaBasket_itemName").text.upper().split(" - ")[0] + " 2,5KG",
+            "price": driver.find_element(By.CSS_SELECTOR, "div.athenaBasket_bodyItem.athenaBasket_bodyItem-subTotal").text.replace(" ", ""),
             "url": "https://www.myprotein.es/nutricion-deportiva/impact-whey-protein/10530943.html"
         }
         products.append(product1)

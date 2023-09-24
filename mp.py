@@ -97,6 +97,7 @@ def get_data():
         options = Options()
         options.add_argument("--headless")
         driver = webdriver.Firefox(options=options)
+        driver.maximize_window()
 
         login(driver)
 
