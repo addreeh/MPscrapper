@@ -167,7 +167,7 @@ if __name__ == '__main__':
 
                         # Create a message to notify about the price change
                         msg = f"*{brand} |* [{product_name}]({product_url}) *| {mongoPrice}* ➜ *{product_price}*"
-                        if product_price == minPrice:
+                        if float(floatPrice) < float(floatMinPrice):
                             msg += "\n⚠️ *This is the lowest recorded price*"
                         elif float(floatPrice) > float(floatMaxPrice):
                             msg += "\n⛔️ *This is the highest recorded price*"
