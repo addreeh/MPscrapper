@@ -1,6 +1,7 @@
 # MPscrapper
 
 A python web scraping script crafted to automate data extraction from the [MYPROTEIN](https://www.myprotein.com/) shopping cart. If you want to receive alerts, you can join this [Telegram channel](https://t.me/mpscrapper) where the price of the products is checked daily. This is what the alerts channel looks like.
+
 ![image](https://github.com/addreeh/MPscrapper/assets/74270582/f778fd12-43d4-4aa1-b812-ae4bc8c1e39f)
 
 
